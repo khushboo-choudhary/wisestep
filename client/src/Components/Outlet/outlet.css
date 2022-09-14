@@ -1,0 +1,57 @@
+.main {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.main>div {
+    height: 200px;
+    border: 0.5px solid rgb(158, 158, 158);
+    border-radius: 5px;
+    padding-top: 40px;
+
+}
+
+.main>div:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#box1 {
+    background-image: url("https://i.pinimg.com/originals/c6/8d/2f/c68d2fec725120ff9e03bce6a5702685.png");
+    background-size: cover;
+
+}
+
+#box2 {
+    background-image: url("https://www.financialexpress.com/wp-content/uploads/2021/11/Ather-Space-Launch-Hubli-2-e1636546818621.jpg");
+    background-size: cover;
+}
+
+#box3 {
+    background-image: url("https://d36g7qg6pk2cm7.cloudfront.net/assets/og_tariff-957b0cc09bafebf70062bb25e7de286580e9864ed4e5afbc78280cbac54f8421.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#box4 {
+    background-image: url("https://content3.jdmagicbox.com/comp/bangalore/i1/080pxx80.xx80.180104194307.w2i1/catalogue/ontrack-bike-rental-indiranagar-bangalore-bike-on-rent-jui91go0zj.jpg");
+    background-size: cover;
+}
+
+#box5 {
+    background-image: url("https://content3.jdmagicbox.com/comp/bangalore/s5/080pxx80.xx80.120512120806.m6s5/catalogue/orion-motors-koramangala-bangalore-motorcycle-dealers-suzuki-4fyorzimfh.jpeg?clr=003366");
+    background-size: cover;
+}
+
+#box6{
+    background-image: url("https://i.pinimg.com/originals/68/e7/ab/68e7abd7fbb7902562de8e6f91eaed69.jpg");
+    background-size: cover;
+    }
+
+#btn {
+    margin-top: 60px;
+
+}

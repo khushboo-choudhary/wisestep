@@ -1,0 +1,22 @@
+.Container{
+   height:50px;
+   display: flex;
+   justify-content: space-between;
+   padding: 10px; 
+   background-color: rgb(206, 206, 244);
+   
+}
+.box{
+    width: 25rem;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.location{
+    display: flex;
+    gap:2px;
+}
+.location>svg{
+    margin-top:15px
+}
